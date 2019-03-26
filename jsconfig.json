@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": "./",
+    "paths": {
+      "pages/*": ["pages/*"],
+      "static/*": ["static/*"],
+      "ui/*": ["src/utils/ui*"],
+      "__mocks__/*": ["__mocks__/*"],
+      "components/*": ["src/components/*"],
+      "containers/*": ["src/containers/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
